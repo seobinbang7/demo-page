@@ -1,0 +1,36 @@
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.phone, 
+.email,
+.git,
+.velog {
+  font-size: 50px;
+  padding-right: 27px;
+}
+
+.phone:hover, 
+.email:hover,
+.git:hover,
+.velog:hover {
+  cursor: pointer;
+  animation: scale  3s ease-in-out;
+}
+
+@keyframes scale{
+  0% {
+    transform: scale(1);
+  }50%{
+    transform: scale(2);
+  }100% {
+    transform: scale(1);
+  }
+}
+
+
+
+

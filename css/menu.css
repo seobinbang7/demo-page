@@ -1,0 +1,67 @@
+.menu-columns{
+  position: fixed;
+  left: 1365px;
+  top: 80px;
+} 
+
+.menu-columns__ul {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-columns__ul__item{
+  border-radius: 5px;
+  color: #999CC5;
+  opacity: 0.8;
+  font-weight: 900;
+  background-color: white;
+  /* -- item마다 아래 간격주기 -- */
+  margin-bottom: 15px;
+  /* -- 마우스가 올라가면 커서 모양이 바뀜 -- */
+  cursor: pointer;
+  /* -- span text 중앙 정렬 -- */
+  text-align: center; 
+  line-height: 50px;
+}
+
+.menu-columns__ul__item:nth-child(1):hover{
+  animation:first-li-slide .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes first-li-slide{
+  0%{
+      transform:translateX(0)
+  }
+  100%{
+      transform:translateX(-35px)
+  }
+}
+.menu-columns__ul__item:nth-child(2):hover{
+  animation:second-li-slide .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes second-li-slide{
+  0%{
+      transform:translateX(0)
+  }
+  100%{
+      transform:translateX(-45px)
+  }
+}
+.menu-columns__ul__item:nth-child(3):hover{
+  animation:third-li-slide .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes third-li-slide{
+  0%{
+      transform:translateX(0)
+  }
+  100%{
+      transform:translateX(-55px)
+  }
+}
+
+
+
+
+
+
