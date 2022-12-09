@@ -5,6 +5,7 @@
 @import "./contact.css";
 @import "./audio.css";
 
+
 * {
   box-sizing: border-box;
 }
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-  background-image: url("../static/mount.jpg");
+  background-image: url("../img/mount.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
